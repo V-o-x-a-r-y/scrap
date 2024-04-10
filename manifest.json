@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Télécharger Images",
+  "version": "1.0",
+  "description": "Une extension pour télécharger les images d'une plage spécifiée.",
+  "permissions": [
+    "activeTab",
+    "downloads"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

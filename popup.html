@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Images</title>
+    <!-- Importez votre fichier CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Télécharger les images</h1>
+        <input type="text" id="baseURL" placeholder="URL de base"><br>
+        <input type="text" id="chapterNumber" placeholder="Numéro de chapitre"><br>
+        <input type="number" id="startNumber" placeholder="Premier numéro d'image"><br>
+        <input type="number" id="lastNumber" placeholder="Dernier numéro d'image"><br>
+        <button id="downloadButton">Télécharger les images</button>
+        <progress id="progressBar" value="0" max="100"></progress>
+    </div>
+
+    <!-- Importez la bibliothèque FileSaver.js -->
+    <script src="FileSaver.js"></script>
+    <!-- Importez le fichier jszip.min.js -->
+    <script src="jszip.min.js"></script>
+    <!-- Importez votre fichier JavaScript -->
+    <script src="popup.js"></script>
+</body>
+</html>

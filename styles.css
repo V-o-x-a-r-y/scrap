@@ -1,0 +1,44 @@
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="number"] {
+    --btnwidth: calc(100% - 16px); /* Ajustement de la largeur pour compenser le padding */
+    width: var(--btnwidth);
+    display: block;
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff;
+    width: var(--btnwidth);
+    display: block;
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+progress {
+    width: 100%;
+    margin-top: 10px;
+}
